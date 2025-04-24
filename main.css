@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.size-full {
+    width: 100%
+}
+
+
+nav {
+    background-color: #333333;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+
+    font-size: 1px;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+
+nav li {
+    display:inline-block;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: normal;
+    word-spacing: normal;
+
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+nav li a {
+    text-decoration:none;
+    color:#929291;
+    margin: 0px;
+    outline: 0px;
+    padding:10px 14px;
+    display: block;
+}
+
+nav li a:hover, nav li:active a {
+    color: #FFFFFF;
+}
+
+.pure-g div {
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table td {
+    border: 1px solid #000000;
+}
+table th {
+    border: 2px solid #000000;
+}
+
+caption {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 10px 0px;
+}
+
+caption h2 {
+    margin: 0;
+}
+
+caption h3 {
+    display: inline-block;
+    margin: 0;
+    margin: 5px 0px;
+}
+
+caption input {
+    position: absolute;
+    right: 20px;
+}
+
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+    color: white;            
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+}
